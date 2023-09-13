@@ -1,0 +1,24 @@
+.Sidebar__main{
+    display: flex;
+    align-items: center !important;
+    height: 20px;
+    width: 192px;
+    padding: 20px 20px;
+    vertical-align: middle;
+    transition: 0.2s ease;
+}
+.Sidebar__icon{
+    color: #606060;
+    font-size: 22px !important;
+}
+.Sidebar__title{
+    flex: 1;
+    margin-left: 20px ;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgb(92, 92, 92);
+}
+.Sidebar__main:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
